@@ -105,6 +105,13 @@
     border-top-right-radius: 10px;
     object-fit: cover;
   }
+  .sidebar__profile >img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    
+    
+  }
   
   .sidebar__top {
     display: flex;
@@ -117,7 +124,7 @@
     background-color: white;
     padding-bottom: 10px;
   }
-  
+
   .sidebar__topAvatar {
     font-size: 40px;
   }
@@ -264,23 +271,33 @@
     margin-bottom: 10px;
     border-radius: 10px;
   }
+
   
   .post__header {
     display: flex;
     margin-bottom: 10px;
   }
+ .post__info > img{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position:absolute !important;
+ }
   
-  .post__info {
+  /* .post__info {
     margin-left: 10px;
-  }
+ 
+  } */
   
   .post__info > p {
     font-size: 12px;
     color: gray;
+   margin-left: 50px;
   }
   
   .post__info > h2 {
     font-size: 15px;
+    margin-left: 50px;
   }
   
   /* widgets */
