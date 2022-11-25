@@ -97,20 +97,12 @@
     height: fit-content;
   }
   
-  .sidebar__top > img {
-    margin-bottom: -20px;
-    width: 100%;
-    height: 60px;
-
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    object-fit: cover;
-  }
-  .sidebar__profile >img{
+  
+  .sidebar__profile > img{
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
     
   }
   
@@ -122,18 +114,17 @@
     border-bottom: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: white;
     padding-bottom: 10px;
+    background-image: url(1.jpg);
+    background: 50% cover;
+  
   }
 
-  .sidebar__topAvatar {
-    font-size: 40px;
-  }
   
   .sidebar__stats {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid lightgray;
+    border: 1px solid rgb(250, 246, 246);
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -146,7 +137,7 @@
   }
   
   .sidebar__stat > p {
-    color: gray;
+    color: rgb(24, 22, 22);
     font-size: 13px;
     font-weight: 600;
   }
@@ -157,13 +148,16 @@
   }
   
   .sidebar__top > h4 {
-    color: gray;
+    color: rgb(20, 20, 20);
     font-size: 12px;
     margin-top: 5px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   .sidebar__top > h2 {
     font-size: 18px;
+    color: rgb(30, 32, 34);
   }
   
   .sidebar__bottom {
@@ -178,7 +172,7 @@
   .sidebar__recentItem {
     display: flex;
     font-size: 13px;
-    color: gray;
+    color: rgb(23, 2, 2);
     font-weight: bolder;
     cursor: pointer;
     margin-bottom: 5px;
